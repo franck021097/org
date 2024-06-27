@@ -17,3 +17,13 @@
     font-size: 32px;
     font-weight: 400;
 }
+
+@media (max-width: 500px) {
+    .formulario h2 {
+        font-size: 20px;
+    }
+
+    .formulario form{
+        padding: 8px 30px;
+    }
+}

@@ -6,16 +6,24 @@
     box-sizing: border-box;
     background-size: cover;
     background-position: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.redes{
+    display: flex;
+    gap: 30px;
+    align-self: flex-start;
 }
 
 .redes img{
     padding: 0px 15px;
 }
 
-
-
-
+footer strong{
+    align-self: end;
+}
