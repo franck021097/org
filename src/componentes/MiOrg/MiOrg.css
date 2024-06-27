@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap
 }
 
 .orgSection h3{
@@ -14,7 +15,6 @@
 }
 
 .orgSection img {
-    position: absolute;
     right: 20%;
     cursor: pointer;
 }
